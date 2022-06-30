@@ -20,11 +20,11 @@ class Messages extends Component {
         ></PageBanner>
         <div className="message-container">
           <div className="message-card">
-            <h1>Past messages</h1>
+            <h1>Previous messages</h1>
             <p>
-              Check out our past and current messages here or on our Telegram
-              channel. click the link provided for more messages and gathering
-              information:
+              Check out our previous and current messages here or on our
+              Telegram channel. Click the link provided for more messages and
+              update:
               <a
                 href="https://t.me/UniqueRevivalPrayerNetwork"
                 target="_blank"

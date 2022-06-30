@@ -8,7 +8,8 @@ class SocialMedia extends Component {
         <div className="media-container">
           <h1>We are social!</h1>
           <p className="media-text">
-            Follow us on your favorite social media sites
+            Follow us on your favorite social media platform, click any of the
+            logo to gp directly to our page
           </p>
           <div className="display-row">
             <div className="media-col">

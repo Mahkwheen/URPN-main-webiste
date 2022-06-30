@@ -47,7 +47,7 @@ class Guest extends Component {
         </div>
         <div className="display-row block-container">
           <div className="block-col">
-            <h1>Gathering Times</h1>
+            <h1>Fellowship days</h1>
             <div className="display-row gathering-info">
               <div>
                 <h3>Prayers</h3>
@@ -55,8 +55,8 @@ class Guest extends Component {
                 <p>Saturday @ 9am</p>
               </div>
               <div>
-                <h3>Kindomite Meetings</h3>
-                <p>Sunday: Kindomite service @ 2:30pm</p>
+                <h3>Kingdomite Meetings</h3>
+                <p>Sunday: Kingdomite service @ 2:30pm</p>
               </div>
             </div>
           </div>

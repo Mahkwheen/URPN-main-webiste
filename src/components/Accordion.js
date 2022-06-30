@@ -26,7 +26,7 @@ class Accordion extends Component {
               you want to ask too.
             </p>
             <p className="intro-text">
-              Also feel free to mail us
+              Also feel free to send us an email
               <a
                 href="mailto:uniquerevivalprayernetwork@gmail.com"
                 className="mail"
@@ -47,9 +47,9 @@ class Accordion extends Component {
               <div className="panel">
                 <p>
                   We are not a church. Unique Revival Prayer Network(URPN) is an
-                  inter-denominational ministry, regardless of the church you
-                  worship you are welcome here, so you can still attend your
-                  church and be part of our fellowship
+                  inter-denominational ministry. Regardless of the church you
+                  worship, you are welcome here. So, you can still attend your
+                  church and be part of our fellowship.
                 </p>
               </div>
             </div>
@@ -63,10 +63,9 @@ class Accordion extends Component {
               </button>
               <div className="panel">
                 <p>
-                  All you need to do is attend our fellowships and meetings, and
-                  there, you are a part of us, we would get some information
-                  about you, so we can stay in touch with you and you can give
-                  as much as you are comfortable with
+                  No, all you need to do is attend our fellowships and meetings,
+                  and there, you are a part of us, we would get some information
+                  about you, so we can stay in touch with you.
                 </p>
               </div>
             </div>
@@ -105,7 +104,7 @@ class Accordion extends Component {
                   >
                     Contact
                   </NavLink>
-                  &nbsp; us page for every detail on our location, you can also
+                  &nbsp; us page for every details on our location, you can also
                   access our social media links on the&nbsp;
                   <NavLink
                     activeClassName="active"
@@ -114,7 +113,7 @@ class Accordion extends Component {
                   >
                     Connect
                   </NavLink>
-                  &nbsp; page for more information
+                  &nbsp; page for more information.
                 </p>
               </div>
             </div>

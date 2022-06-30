@@ -19,7 +19,6 @@ class Contact extends Component {
       initial: { scale: 0.9 },
       animate: {
         scale: 1.1,
-        // rotate: "360deg",
         transition: { delay: 0.5, duration: 1, yoyo: Infinity },
       },
     };

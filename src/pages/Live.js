@@ -87,12 +87,12 @@ class Live extends Component {
               <h1>Our live services</h1>
               <h2>Sundays @ 2:30pm GMT</h2>
               <p>
-                Missed our live stream? you can find our services on the &nbsp;
+                Missed our live stream? You can find our recorded services on
+                the &nbsp;
                 <NavLink className="link" to="/Messages">
                   Message
                 </NavLink>
-                &nbsp;page, &nbsp;audio messages are also available in
-                ours&nbsp;
+                &nbsp;page, &nbsp;audio messages are also available on our&nbsp;
                 <a
                   className="link"
                   href="https://t.me/UniqueRevivalPrayerNetwork"

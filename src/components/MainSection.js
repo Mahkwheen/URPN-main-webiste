@@ -12,21 +12,21 @@ class Main extends Component {
         },
       },
     };
-    const cardVariants = {
-      hidden: {
-        opacity: 0,
-        y: 30,
-      },
-      inView: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          type: "tween",
-          duration: 1,
-          delay: 0,
-        },
-      },
-    };
+    // const cardVariants = {
+    //   hidden: {
+    //     opacity: 0,
+    //     y: 30,
+    //   },
+    //   inView: {
+    //     opacity: 1,
+    //     y: 0,
+    //     transition: {
+    //       type: "tween",
+    //       duration: 1,
+    //       delay: 0,
+    //     },
+    //   },
+    // };
     const fadeIn = {
       hidden: {
         opacity: 0,
@@ -38,7 +38,7 @@ class Main extends Component {
         transition: {
           type: "tween",
           duration: 0.5,
-          delay: 0.7,
+          delay: 0.5,
         },
       },
     };
@@ -47,14 +47,14 @@ class Main extends Component {
         <div className="main-container">
           <div className="main display-row">
             <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="inView"
+            // variants={cardVariants}
+            // initial="hidden"
+            // whileInView="inView"
             >
               <h2>Guest to URPN?</h2>
               <p>
-                We are delighted God lead you here. We love you already, click
-                on guest info link below and check us out.
+                We are delighted God led you here. We love you already! click on
+                guest info link below and check us out.
               </p>
               <NavLink className="link" to="/Guest">
                 <span>
@@ -68,14 +68,14 @@ class Main extends Component {
               </NavLink>
             </motion.div>
             <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="inView"
+            // variants={cardVariants}
+            // initial="hidden"
+            // whileInView="inView"
             >
               <h2>Connect</h2>
               <p>
                 Stay connected with us on your favorite social media platform,
-                you can also reach us to us through our mail or social media
+                you can also reach us through our mail.
               </p>
               <NavLink className="link" to="/Connect">
                 <span>
@@ -89,15 +89,12 @@ class Main extends Component {
               </NavLink>
             </motion.div>
             <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="inView"
+            // variants={cardVariants}
+            // initial="hidden"
+            // whileInView="inView"
             >
               <h2>Watch Live!</h2>
-              <p>
-                Watch our kingdomite services and messages on sundays by 2:30pm
-                GMT
-              </p>
+              <p>Watch our Kingdomite services on Sundays by 2:30pm GMT</p>
               <NavLink className="link" to="/Live">
                 <span>
                   Watch
@@ -119,10 +116,10 @@ class Main extends Component {
               <h2>Our purpose</h2>
               <h1>A family desperate for God's sovereignty</h1>
               <p>
-                Unique revival prayer network is an inter-denominational
+                Unique Revival Prayer Network is an inter-denominational
                 ministry striving for the restoration of the original ordination
-                of families, spheres, territories through intercession and rise
-                of kingdom agents.
+                of families, spheres and territories through intercession and
+                rise of kingdom agents.
               </p>
             </motion.div>
             <div className="main-img-container">
